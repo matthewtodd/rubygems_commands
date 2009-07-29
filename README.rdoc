@@ -17,11 +17,15 @@ This gem provides for `gem mate`, `gem doc`, and `gem export`.
  #      activerecord-2.3.2.gem
  #      activesupport-2.3.2.gem
 
-== Tab Completion
-
-Provided by Dr. Nic's tabtab[http://tabtab.rubyforge.org] gem.
-
 == Install
 
  gem sources --add http://gems.github.com
  gem install matthewtodd-rubygems_commands
+
+== Tab Completion
+
+Provided by Dr. Nic's tabtab[http://tabtab.rubyforge.org] gem.
+
+After installing, you'll want to update your tabtab completions with
+
+ install_tabtab
