@@ -1,31 +1,5 @@
-= Rubygems Commands
+= Obsolete
 
-Since version 1.3.2, rubygems has allowed 3rd-party libraries to provide additional sub-commands for `gem`.
-
-This gem provides for `gem mate`, `gem doc`, and `gem export`.
-
-== Behold
-
- gem mate activerecord
- # => mate /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2
-
- gem doc activerecord
- # => open /opt/local/lib/ruby/gems/1.8/doc/activerecord-2.3.2/rdoc/index.html
-
- gem export activerecord
- # => Creates these files in the current directory:
- #      activerecord-2.3.2.gem
- #      activesupport-2.3.2.gem
-
-== Install
-
- gem sources --add http://gems.github.com
- gem install matthewtodd-rubygems_commands
-
-== Tab Completion
-
-Provided by Dr. Nic's tabtab[http://tabtab.rubyforge.org] gem.
-
-After installing, you'll want to update your tabtab completions with
-
- install_tabtab
+I've just found http://github.com/adamsanderson/open_gem, which provides `gem
+open` and `gem read`, just what I have here as `gem mate` and `gem doc` but
+nicer. Go there!
